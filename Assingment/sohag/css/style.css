@@ -1,0 +1,57 @@
+.sohag{
+	background-image: url("image/logo lady.jpg");
+
+}
+
+.about{
+	
+	color:red;
+
+	
+}
+.order{
+	background:lightblue;
+}
+img {
+  max-width: 33%;
+  height: auto%;
+  
+
+}
+.menu{
+
+	background: skyblue;
+}
+h1{
+	color: white;
+}
+h4{
+	color: gray;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size:  14px;
+     color:  #fff;
+     border:  1px solid yellow;
+     margin-left:30px;
+     font-weight: normal;
+}
+.map{
+	  position: absolute;
+	  height: 100%;
+    width: 100%;
+   
+}
+h2{
+	color: lightblue;
+
+}
+h3,h4,h5{
+	color: darkblue;
+}
+

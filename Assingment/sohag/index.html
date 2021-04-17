@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial;
+padding: 10px;
+background: #f1f1f1;
+}
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/* Header/Blog Title */
+.header {
+padding: 30px;
+text-align: center;
+background: white;
+}
+
+.header h1 {
+font-size: 50px;
+}
+
+
+
+/* Left column */
+.leftcolumn {   
+float: left;
+width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+float: left;
+width: 25%;
+background-color: #f1f1f1;
+padding-left: 20px;
+}
+.center {
+  display: block;
+  width: 100%;
+
+}
+
+
+
+
+/* header image */
+.header1 {
+background-image: url('image/header.jpg');
+  background-color: #cccccc; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  width: 100%; 
+}
+/* header2 image */
+.header2 {
+background-image: url('image/header2.jpg');
+  background-color: #cccccc; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  width: 100%; }
+
+/* Add a card effect for articles */
+.card {
+background-color: white;
+padding: 20px;
+margin-top: 20px;
+
+}
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   height: 50px;
+}
+
+
+
+
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {   
+width: 100%;
+padding: 0;
+}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.topnav a {
+float: none;
+width: 100%;
+}
+}
+
+
+
+
+
+</style>
+<head>
+  
+  <link href="css/all.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+   
+
+ <title>Daily Star</title>
+  <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon">
+</head>
+<body>
+
+<div class="header">
+<img src="image/name.png" alt="Italian Trulli">
+</div>
+	
+
+
+
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="file:///C:/Users/user/Desktop/Assingment/sohag/Bussines.html">BUSINESS</a>
+  <a href="#news">OPINION</a>
+  <a href="#news">LIFESTYLE</a>
+  <a href="file:///C:/Users/user/Desktop/Assingment/sohag/Showbiz.html">SHOWBIZ</a>
+  
+  
+
+  <div class="dropdown">
+    <button class="dropbtn">NEWS 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">World news </a>
+      <a href="#">BD news</a>
+      <a href="file:///C:/Users/user/Desktop/Assingment/sohag/Sports.html">Sports</a>
+    </div>
+</div>
+ <a href="file:///C:/Users/user/Desktop/Assingment/sohag/register.html" style="float:right">Get Registered</a>
+ <a href="file:///C:/Users/user/Desktop/Assingment/sohag/log%20in.html" style="float:right">Log in </a>
+
+  </div> 
+</div>
+
+<div class="row">
+<div class="leftcolumn">
+<div class="card">
+<h2>4 Daily Star journalists assaulted</h2>
+<h5>Journos from other outlets also attacked</h5>
+<div class="header1" style="height:300px;"> </div>
+<p><h5> group of youths, allegedly from the Bangladesh Chhatra League, beats up a student who fell down on the ground in the capital's Jhigatola area during yesterday's clash. Photo: Amran Hossain</p>
+<p>Police and alleged BCL men beat up three journalists of The Daily Star and molested another in the capital's Jhigatola yesterday afternoon.
+
+One of them, Shaer Reaz, was taking pictures of a clash near Dhanmondi 3/A around 6:00pm when a man, who did not appear to be a law enforcer, started beating him up with a stick, kicked him and punched him and handed him to police.</p>
+</div>
+
+<div class="card">
+<h2>Biman's special flight cancelled, several hundred Saudi-bound workers protest at Dhaka airport</h2>
+<h5>Star Digital Report</h5>
+<div class="header2" style="height:300px;">Image</div>
+<p>Photo: Star</p>
+<p>Several hundred Saudi Arabia bound migrant workers demonstrated at Dhaka Airport early this morning due to cancellation of a Biman Bangladesh Airlines special flight.
+
+BG 5039 was scheduled to depart from Hazrat Shahjalal International Airport at 6:15am for Riyadh. But Biman was forced to cancel the special flight as Saudi authorities didn't give landing permission, sources at the HSIA said.</p>
+</div>
+</div>
+<div class="rightcolumn">
+<div class="card">
+<h2>Breaking News</h2>
+<div class="eliyas" style="height:100px;"><img src="image/eliyas gum.jpg" alt="Paris" class="center"></div>
+
+<p>৯ বছর পর মির্জা আব্বাস দিলেন ইলিয়াস আলীর ‘গুম তথ্য’</p>
+</div>
+ 
+
+<div class="card">
+<h3>Yesterdays News</h3>
+<p>Covid-19: Govt could extend lockdown for another week</p>
+<div class="lockdown"><p><div class="" style="height:100px;"><img src="image/lockdown-web.jpg" alt="Paris" class="center"></p></div>
+</div>
+
+
+
+<div class="card">
+<h3>Top News</h3>
+<p><ul>
+  <li>Rising price of essentials: How're the middle class and low-income people doing?</li>
+  <li>Someone from BNP behind disappearance of Ilias Ali, claims Mirza Abbas</li>
+  
+</ul>  
+</p>
+</div>
+
+
+<div class="rightcolumn2">
+<div class="card1">
+<h2>Ads</h2>
+<div class="fakeimg" style="height:100px;"></div>
+<p><h4>Call us to put your add here</h4></p>
+</div>
+
+
+</div>
+</div>
+
+<div class="footer">
+  <p>All Copyrights reserved to Mehedi Hasan Sohag ©️ 2021</p>
+</div>
+
+
+
+</body>
+
+</html>
